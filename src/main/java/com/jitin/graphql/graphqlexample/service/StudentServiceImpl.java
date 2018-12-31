@@ -11,10 +11,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 
+import com.jitin.graphql.graphqlexample.datafetcher.StudentDataFetcher;
+import com.jitin.graphql.graphqlexample.datafetcher.StudentsDataFetcher;
 import com.jitin.graphql.graphqlexample.model.Student;
 import com.jitin.graphql.graphqlexample.repository.StudentRepository;
-import com.jitin.graphql.graphqlexample.service.datafetcher.StudentDataFetcher;
-import com.jitin.graphql.graphqlexample.service.datafetcher.StudentsDataFetcher;
 
 import graphql.GraphQL;
 import graphql.schema.GraphQLSchema;

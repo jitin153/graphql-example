@@ -1,4 +1,4 @@
-package com.jitin.graphql.graphqlexample.service.datafetcher;
+package com.jitin.graphql.graphqlexample.datafetcher;
 
 import java.util.Optional;
 
